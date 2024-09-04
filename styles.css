@@ -1,3 +1,11 @@
+.contribuir-btn-container {
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    top: 100px; /* Ajuste o valor conforme a altura do header */
+    z-index: 1000; /* Para garantir que o botão fique sobre outros elementos */
+    display: flex;
+    justify-content: center; /* Alinha o botão horizontalmente */
+}
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f5f5f5;
@@ -258,3 +266,12 @@ footer a {
 }
 
 }
+.contribuir-btn-container {
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    top: 100px; /* Ajuste o valor conforme a altura do header */
+    z-index: 1000; /* Para garantir que o botão fique sobre outros elementos */
+    display: flex;
+    justify-content: center; /* Alinha o botão horizontalmente */
+}
+
